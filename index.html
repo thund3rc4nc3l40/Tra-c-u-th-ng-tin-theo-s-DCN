@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Tìm kiếm theo Số ĐDCN</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    input { padding: 8px; width: 300px; font-size: 16px; }
+    button { padding: 8px 12px; font-size: 16px; margin-left: 5px; }
+    table { border-collapse: collapse; margin-top: 20px; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: 6px; text-align: left; }
+    th { background-color: #f2f2f2; }
+    .no-data { margin-top: 20px; color: red; }
+  </style>
+</head>
+<body>
+  <h1>Tìm kiếm thông tin theo Số ĐDCN</h1>
+  <input type="text" id="ddcnInput" placeholder="Nhập Số ĐDCN...">
+  <button id="searchBtn">Tìm kiếm</button>
+
+  <div id="message" class="no-data"></div>
+  <table id="resultTable"></table>
+
+  <!-- Thư viện đọc CSV -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
