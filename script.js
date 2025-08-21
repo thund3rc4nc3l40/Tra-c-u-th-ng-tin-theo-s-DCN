@@ -25,7 +25,7 @@ function searchByDDCN() {
   }
 
   // Lọc dữ liệu theo Số ĐDCN (so khớp chính xác)
-  const results = allData.filter(row => row[Số ĐDCN] === ddcn);
+  const results = allData.filter(row => row[DDCN] === ddcn);
 
   if (results.length === 0) {
     messageDiv.textContent = "Không tìm thấy dữ liệu cho Số ĐDCN này.";
@@ -51,3 +51,4 @@ document.getElementById("ddcnInput").addEventListener("keypress", function(e) {
     searchByDDCN();
   }
 });
+
