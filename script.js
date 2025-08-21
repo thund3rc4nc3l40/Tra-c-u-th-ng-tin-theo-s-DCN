@@ -2,12 +2,12 @@ let allData = [];
 
 // Đọc file CSV khi tải trang
 Papa.parse("data.csv", {
-  download: true,
-  header: true,
-  skipEmptyLines: true,
-  complete: function(results) {
-    allData = results.data;
-  }
+    download: true,
+    header: true,
+    complete: function(results) {
+        allData = results.data;
+        console.log("CSV loaded:", allData);
+    }
 });
 
 // Hàm thực hiện tìm kiếm
@@ -51,4 +51,5 @@ document.getElementById("ddcnInput").addEventListener("keypress", function(e) {
     searchByDDCN();
   }
 });
+
 
