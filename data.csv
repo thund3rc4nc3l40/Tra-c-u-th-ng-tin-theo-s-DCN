@@ -1,4 +1,4 @@
-﻿STT,Số ĐDCN,Mã xét tuyển,Tên mã xét tuyển,Họ và tên,Ngày sinh,Giới tính,ĐTƯT,KVƯT,Năm TN THPT,Học lực/Kết quả học tập,Hạnh kiểm/Kết quả rèn luyện,Điểm TB Lớp 12/Điểm TB các năm học,Dân tộc,Nơi sinh,MSSV,Mã lớp
+﻿STT,DDCN,Mã xét tuyển,Tên mã xét tuyển,Họ và tên,Ngày sinh,Giới tính,ĐTƯT,KVƯT,Năm TN THPT,Học lực/Kết quả học tập,Hạnh kiểm/Kết quả rèn luyện,Điểm TB Lớp 12/Điểm TB các năm học,Dân tộc,Nơi sinh,MSSV,Mã lớp
 1,001207047742,7340101,Quản trị kinh doanh,NGÔ HOÀNG TÂM,04/05/2007,Nam,,2,2025,Khá,Tốt,7.52,Kinh,Kiên Giang,2500000001,B025xx1
 2,001207047742,7380101,Luật,NGÔ HOÀNG TÂM,04/05/2007,Nam,,2,2025,Khá,Tốt,7.52,Kinh,Kiên Giang,2500000002,B025xx2
 3,001306055911,7140202,Giáo dục tiểu học,TRẦN THỊ HƯƠNG NHI,15/04/2006,Nữ,,2,2024,,,,Kinh,HÀ TÂY,2500000003,B025xx3
@@ -998,3 +998,4 @@
 ,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,
+
